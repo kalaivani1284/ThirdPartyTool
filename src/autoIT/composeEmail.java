@@ -17,6 +17,7 @@ public static WebDriver driver = null;
 public static String CHROME_KEY = "webdriver.chrome.driver";
 public static String CHROME_VALUE = "C:\\Users\\sivak\\Desktop\\vani\\ToolsDemo\\Drivers\\chromedriver.exe";
 public static WebDriverWait wait = null;
+//Thisis precondition
 	@BeforeMethod
 	public void precondition()
 	{
