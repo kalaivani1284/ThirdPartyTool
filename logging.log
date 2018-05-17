@@ -1,0 +1,5 @@
+2018-05-16 17:37:05 DEBUG LoggerDemo:15 - This is the debug log
+2018-05-16 17:37:05 DEBUG LoggerDemo:15 - This is the debug log
+2018-05-16 17:37:05 ERROR LoggerDemo:19 - This is the log error message
+2018-05-16 17:37:05 FATAL LoggerDemo:23 - This is the fatal error occured during execution
+2018-05-16 17:37:05 WARN  LoggerDemo:27 - This is the warning  message
