@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="autoIT.composeEmail">
+      <class name="GIT.gitDemo">
         <methods>
-          <include name="composeEmailwithAttachment"/>
-          <include name="closebrowser"/>
-          <include name="precondition"/>
+          <include name="gitoutput"/>
         </methods>
-      </class> <!-- autoIT.composeEmail -->
+      </class> <!-- GIT.gitDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
