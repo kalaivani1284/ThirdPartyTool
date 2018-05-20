@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GIT.gitDemo">
+      <class name="autoIT.profileUpdate">
         <methods>
-          <include name="gitoutput"/>
+          <include name="login"/>
+          <include name="precondition"/>
         </methods>
-      </class> <!-- GIT.gitDemo -->
+      </class> <!-- autoIT.profileUpdate -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
