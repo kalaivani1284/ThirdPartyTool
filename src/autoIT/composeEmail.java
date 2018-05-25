@@ -49,7 +49,7 @@ public static WebDriverWait wait = null;
 	{
 		driver.findElement(By.id("identifierId")).sendKeys("kalaivani1284@gmail.com");
 		driver.findElement(By.xpath("//span[text()='Next']")).click();
-		driver.findElement(By.name("password")).sendKeys("Sairam@1234");
+		driver.findElement(By.name("password")).sendKeys("");
 		driver.findElement(By.xpath("//span[text()='Next']")).click();
 		wait.until(ExpectedConditions.titleContains("Inbox"));
 		driver.findElement(By.xpath("//div[text()='COMPOSE']")).click();

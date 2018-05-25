@@ -25,6 +25,7 @@ public class LoggerDemo
 	public void loggerWarn()
 	{
 		log.warn("This is the warning  message");
+	
 	}
 	
 	@Test
